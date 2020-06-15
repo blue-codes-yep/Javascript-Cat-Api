@@ -1,0 +1,108 @@
+img {
+  height: 17rem;
+  width: 25rem;
+  border-radius: 2px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+​ .carousel-inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 250px;
+  margin: auto;
+  -webkit-box-shadow: -2px 9px 21px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 9px 21px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 9px 21px -8px rgba(0, 0, 0, 0.75);
+}
+​ p {
+  font-weight: 100;
+}
+​ .catContainer {
+  font-family: "Roboto";
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+}
+​ .mainContainer {
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 246, 246, 1) 27%,
+    rgba(155, 229, 224, 1) 100%
+  );
+  background: -webkit-gradient(
+    radial,
+    center center,
+    0px,
+    center center,
+    100%,
+    color-stop(0%, rgba(255, 255, 255, 1)),
+    color-stop(27%, rgba(246, 246, 246, 1)),
+    color-stop(100%, rgba(155, 229, 224, 1))
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 246, 246, 1) 27%,
+    rgba(155, 229, 224, 1) 100%
+  );
+  background: -o-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 246, 246, 1) 27%,
+    rgba(155, 229, 224, 1) 100%
+  );
+  background: -ms-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 246, 246, 1) 27%,
+    rgba(155, 229, 224, 1) 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 246, 246, 1) 27%,
+    rgba(155, 229, 224, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#9be5e0', GradientType=1 );
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 35%;
+  margin: auto;
+  margin-top: 30px;
+  -webkit-box-shadow: -2px 9px 21px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 9px 21px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 9px 21px -8px rgba(0, 0, 0, 0.75);
+}
+​ select {
+  border: none;
+  font-family: "Roboto";
+  font-weight: 100;
+  -webkit-box-shadow: -2px 9px 21px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 9px 21px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 9px 21px -8px rgba(0, 0, 0, 0.75);
+}
+select:focus {
+  outline: none;
+}
+​ #catList {
+  margin: 2rem;
+}
